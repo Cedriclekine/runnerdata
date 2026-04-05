@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de Confidentialité — runnerdata</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+    h1 { color: #1a1a2e; } h2 { color: #2d5a27; margin-top: 2em; }
+  </style>
+</head>
+<body>
+  <h1>Politique de Confidentialité<br><small>Bilan du Golfeur</small></h1>
+  <p><em>Dernière mise à jour : mars 2026</em></p>
+
+  <h2>1. Responsable du traitement</h2>
+  <p>Cette application est développée et maintenue par un développeur indépendant. Pour toute question : <strong>[votre-email@exemple.com]</strong></p>
+
+  <h2>2. Données collectées</h2>
+  <p>L'application collecte uniquement les données que vous saisissez :</p>
+  <ul>
+    <li>Informations du praticien (nom, titre, coordonnées)</li>
+    <li>Informations des coureurs (nom, âge, niveau)</li>
+    <li>Résultats des bilans physiques et fonctionnels</li>
+    <li>Notes et observations cliniques</li>
+  </ul>
+
+  <h2>3. Utilisation des données</h2>
+  <p>Les données sont utilisées exclusivement pour :</p>
+  <ul>
+    <li>Générer des bilans et rapports PDF personnalisés</li>
+    <li>Construire des programmes d'exercices adaptés</li>
+    <li>Assurer le suivi longitudinal des coureurs</li>
+  </ul>
+
+  <h2>4. Stockage et sécurité</h2>
+  <p>Toutes les données sont stockées <strong>localement sur votre appareil</strong>. Aucune donnée n'est transmise à des serveurs tiers. La synchronisation iCloud, si activée, est soumise à la politique de confidentialité d'Apple.</p>
+  <p>Les fichiers de sauvegarde sont chiffrés (AES-256) avant export.</p>
+
+  <h2>5. Partage des données</h2>
+  <p><strong>Aucune donnée n'est partagée avec des tiers.</strong> L'application ne contient aucun traceur, aucune publicité, et n'envoie aucune donnée vers l'extérieur.</p>
+
+  <h2>6. Conformité RGPD</h2>
+  <p>Conformément au Règlement Général sur la Protection des Données (UE) 2016/679, vous disposez des droits suivants concernant les données de vos patients :</p>
+  <ul>
+    <li>Droit d'accès, de rectification et d'effacement</li>
+    <li>Droit à la portabilité (export PDF/sauvegarde chiffrée)</li>
+    <li>Droit d'opposition au traitement</li>
+  </ul>
+  <p>Ces droits s'exercent directement dans l'application ou en nous contactant par email.</p>
+
+  <h2>7. Données de santé</h2>
+  <p>Cette application traite des données de santé au sens du RGPD. Le professionnel de santé utilisant l'application est responsable du traitement de ces données vis-à-vis de ses patients et doit respecter les obligations légales applicables à sa profession.</p>
+
+  <h2>8. Durée de conservation</h2>
+  <p>Les données sont conservées aussi longtemps que vous les maintenez dans l'application. Vous pouvez supprimer un golfeur ou toutes ses données à tout moment depuis l'interface.</p>
+
+  <h2>9. Contact</h2>
+  <p>Pour toute question relative à la confidentialité : <strong>[votre-email@exemple.com]</strong></p>
+</body>
+</html>
