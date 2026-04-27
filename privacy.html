@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Politique de confidentialité de l'application Bilan du Coureur.">
+    <title>Politique de confidentialité | Bilan du Coureur</title>
+    <style>
+        :root {
+            --bg: #f6f1e8;
+            --paper: #fffdf8;
+            --ink: #1e1f1c;
+            --muted: #5f6258;
+            --line: #d8cfbf;
+            --accent: #0f6b5b;
+            --accent-soft: #e3f1ed;
+            --warning: #8a3b12;
+            --warning-soft: #fff1e8;
+            --shadow: 0 18px 40px rgba(38, 33, 25, 0.08);
+            --radius: 22px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            background:
+                radial-gradient(circle at top left, rgba(15, 107, 91, 0.08), transparent 34%),
+                linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
+            color: var(--ink);
+            line-height: 1.7;
+        }
+
+        .page {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 40px 20px 64px;
+        }
+
+        .hero,
+        .card,
+        .footer {
+            background: var(--paper);
+            border: 1px solid rgba(216, 207, 191, 0.9);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .hero {
+            padding: 36px;
+            margin-bottom: 18px;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            margin-bottom: 12px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0 0 12px;
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 4vw, 3.4rem);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+
+        p,
+        li,
+        td,
+        th {
+            font-size: 1rem;
+        }
+
+        .lead {
+            max-width: 68ch;
+            color: var(--muted);
+            margin-bottom: 14px;
+        }
+
+        .meta {
+            display: grid;
+            gap: 8px;
+            margin-top: 18px;
+            color: var(--muted);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.95rem;
+        }
+
+        .notice {
+            margin-top: 18px;
+            padding: 16px 18px;
+            border-radius: 16px;
+            background: var(--warning-soft);
+            border: 1px solid #efc6af;
+            color: var(--warning);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .card {
+            padding: 28px 30px;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li + li {
+            margin-top: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th,
+        td {
+            padding: 12px 10px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .footer {
+            margin-top: 18px;
+            padding: 24px 30px;
+            color: var(--muted);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        strong {
+            color: var(--ink);
+        }
+
+        code {
+            font-family: Menlo, Monaco, Consolas, monospace;
+            font-size: 0.92rem;
+            background: #f4efe6;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+
+        @media (max-width: 720px) {
+            .hero,
+            .card,
+            .footer {
+                padding: 22px;
+            }
+
+            table,
+            thead,
+            tbody,
+            th,
+            td,
+            tr {
+                display: block;
+            }
+
+            thead {
+                display: none;
+            }
+
+            td {
+                padding: 10px 0;
+            }
+
+            td::before {
+                content: attr(data-label);
+                display: block;
+                margin-bottom: 4px;
+                color: var(--muted);
+                font-size: 0.85rem;
+                text-transform: uppercase;
+                letter-spacing: 0.04em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <div class="eyebrow">Confidentialité</div>
+            <h1>Politique de confidentialité</h1>
+            <p class="lead">
+                Cette page décrit comment l'application <strong>Bilan du Coureur</strong>
+                traite les données des praticiens et des coureurs suivis dans l'application.
+            </p>
+            <div class="meta">
+                <div><strong>Application :</strong> Bilan du Coureur</div>
+                <div><strong>Dernière mise à jour :</strong> à renseigner avant mise en ligne</div>
+                <div><strong>URL publique App Store :</strong> cette page doit être hébergée sur ton domaine ou sur GitHub Pages</div>
+            </div>
+            <div class="notice">
+                Remplace les champs entre crochets avant publication :
+                <code>[Nom ou raison sociale]</code>,
+                <code>[Adresse e-mail de contact]</code>
+                et <code>[Adresse postale]</code>.
+            </div>
+        </section>
+
+        <div class="grid">
+            <section class="card">
+                <h2>1. Responsable du traitement</h2>
+                <p>Le responsable du traitement des données est :</p>
+                <ul>
+                    <li><strong>Nom ou raison sociale :</strong> [À compléter]</li>
+                    <li><strong>Adresse e-mail :</strong> [À compléter]</li>
+                    <li><strong>Adresse postale :</strong> [À compléter]</li>
+                    <li><strong>Contact protection des données :</strong> [À compléter si applicable]</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>2. Finalités de l'application</h2>
+                <p><strong>Bilan du Coureur</strong> permet notamment de :</p>
+                <ul>
+                    <li>créer et gérer des fiches coureur ;</li>
+                    <li>enregistrer des bilans cliniques et sportifs ;</li>
+                    <li>analyser la charge d'entraînement ;</li>
+                    <li>importer des données depuis Load Data par fichier ou lien d'import ;</li>
+                    <li>générer des comptes rendus PDF ;</li>
+                    <li>protéger l'accès à l'application et aux données ;</li>
+                    <li>exporter ou restaurer une sauvegarde chiffrée ;</li>
+                    <li>synchroniser les données via iCloud lorsque cette option est activée et autorisée.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>3. Catégories de données traitées</h2>
+                <ul>
+                    <li><strong>Données d'identification :</strong> prénom, nom, date de naissance, sexe, niveau sportif, discipline principale.</li>
+                    <li><strong>Données de contact :</strong> coordonnées du praticien, si renseignées dans l'application.</li>
+                    <li><strong>Données de santé et de condition physique :</strong> observations, bilans, douleurs, historique sportif, pathologies, indicateurs de suivi.</li>
+                    <li><strong>Données d'activité :</strong> séances, distance, durée, charge d'entraînement et données importées depuis Load Data.</li>
+                    <li><strong>Contenus ajoutés par l'utilisateur :</strong> photo du coureur, logo du praticien, notes et PDF exportés.</li>
+                    <li><strong>Données de sécurité :</strong> état de verrouillage, journal local des accès, informations nécessaires aux sauvegardes chiffrées.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>4. Imports externes depuis Load Data</h2>
+                <p>
+                    L'application permet d'importer des données fournies volontairement par l'utilisateur
+                    depuis l'application Load Data. Cet import est optionnel et repose sur une action explicite.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type de donnée</th>
+                            <th>Source</th>
+                            <th>Usage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Type de donnée">Séances d'entraînement</td>
+                            <td data-label="Source">Export Load Data</td>
+                            <td data-label="Usage">Suivi des séances et de la charge</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Type de donnée">Indicateurs de charge</td>
+                            <td data-label="Source">Export Load Data</td>
+                            <td data-label="Usage">Analyse de la charge d'entraînement</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Type de donnée">Proposition d'entraînement</td>
+                            <td data-label="Source">Export Load Data</td>
+                            <td data-label="Usage">Intégration dans le bilan et le suivi</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Type de donnée">Résumé compact d'activité</td>
+                            <td data-label="Source">Lien d'import</td>
+                            <td data-label="Usage">Création rapide d'un bilan de charge</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Ce que l'application ne fait pas</h3>
+                <ul>
+                    <li>aucune revente de données ;</li>
+                    <li>aucun usage publicitaire ;</li>
+                    <li>aucun tracking publicitaire ;</li>
+                    <li>aucun partage avec des courtiers en données ;</li>
+                    <li>aucune transmission à un serveur tiers hors services Apple activés par l'utilisateur.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>5. Base juridique</h2>
+                <p>Selon le contexte d'utilisation, les traitements peuvent reposer sur :</p>
+                <ul>
+                    <li>l'exécution du service demandé par l'utilisateur ;</li>
+                    <li>le consentement, notamment pour l'accès à la caméra ou à la photothèque ;</li>
+                    <li>le respect d'obligations légales applicables à l'activité du praticien ;</li>
+                    <li>l'intérêt légitime lié à la sécurité, la continuité et la protection des dossiers.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>6. Stockage et hébergement</h2>
+                <p>Par défaut, les données sont stockées localement sur l'appareil.</p>
+                <p>Selon les options activées, certaines données peuvent également être :</p>
+                <ul>
+                    <li>synchronisées via iCloud ;</li>
+                    <li>exportées manuellement sous forme de PDF ;</li>
+                    <li>exportées dans une sauvegarde chiffrée protégée par mot de passe.</li>
+                </ul>
+                <p>L'éditeur n'utilise pas ces données à des fins publicitaires ou commerciales.</p>
+            </section>
+
+            <section class="card">
+                <h2>7. Sécurité</h2>
+                <ul>
+                    <li>protection locale des fichiers par les mécanismes du système Apple ;</li>
+                    <li>verrouillage de l'application via Face ID, Touch ID ou code appareil selon l'équipement ;</li>
+                    <li>sauvegardes exportées chiffrées ;</li>
+                    <li>journal local des accès et actions sensibles.</li>
+                </ul>
+                <p>
+                    Aucun système n'offre une sécurité absolue. L'utilisateur reste responsable
+                    de la protection de son appareil, de ses mots de passe et de ses choix de partage.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>8. Partage des données</h2>
+                <p>Les données ne sont ni vendues ni partagées à des fins publicitaires.</p>
+                <p>Des transferts peuvent intervenir uniquement :</p>
+                <ul>
+                    <li>à l'initiative de l'utilisateur lors d'un export ou d'un partage ;</li>
+                    <li>via les services Apple nécessaires aux options activées, notamment iCloud ;</li>
+                    <li>si la loi l'impose.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>9. Durée de conservation</h2>
+                <p>
+                    Les données sont conservées aussi longtemps que nécessaire pour l'utilisation de l'application
+                    et, le cas échéant, selon les obligations légales ou déontologiques applicables au professionnel.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>10. Vos droits</h2>
+                <p>Sous réserve du droit applicable, vous pouvez disposer de droits d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité lorsque ce droit existe.</p>
+                <p>Dans l'application, certains de ces droits peuvent être exercés directement par :</p>
+                <ul>
+                    <li>l'export PDF ;</li>
+                    <li>l'export de sauvegarde chiffrée ;</li>
+                    <li>la suppression définitive d'une fiche coureur.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>11. Données des mineurs</h2>
+                <p>
+                    L'application n'est pas conçue comme un service grand public destiné aux enfants.
+                    Si des données de mineurs sont traitées, l'utilisateur professionnel reste responsable
+                    des autorisations et fondements juridiques nécessaires.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>12. Absence de tracking publicitaire</h2>
+                <p>
+                    L'application n'utilise pas les données pour suivre les utilisateurs
+                    à des fins publicitaires au sens de l'App Tracking Transparency.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>13. Contact</h2>
+                <p>
+                    Pour toute question relative à cette politique de confidentialité,
+                    contacte : <a href="mailto:[Adresse e-mail de contact]">[Adresse e-mail de contact]</a>
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>14. Modifications</h2>
+                <p>
+                    Cette politique peut être mise à jour pour refléter les évolutions de l'application,
+                    de ses fonctionnalités ou des exigences légales. La version la plus récente doit rester
+                    accessible publiquement à l'URL déclarée dans l'App Store.
+                </p>
+            </section>
+        </div>
+
+        <section class="footer">
+            <p>
+                Conseil de publication : héberge cette page sur une URL stable, par exemple
+                <code>https://ton-domaine/privacy/bilan-du-coureur</code> ou
+                <code>https://ton-compte.github.io/bilanducoureur/privacy-policy.html</code>.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
